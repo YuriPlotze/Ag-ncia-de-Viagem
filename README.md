@@ -30,9 +30,9 @@
 
 7. **Adicionar nota**
    - Método:  `PATCH /api/destinos/{id}/avaliar`
-      - Exemplo de Body (JSON):
-     ```json
-   {
-      "nota": 9
-   }
-     ```
+   - Exemplo de Body (JSON):
+      ```json
+      {
+         "nota": 9
+      }
+      ```
