@@ -1,11 +1,12 @@
-package com.yuriviagens.api_agencia_viagem.controller;
+package com.yuriviagens.viagens.controller;
 
-import com.yuriviagens.api_agencia_viagem.dto.Avaliacao;
-import com.yuriviagens.api_agencia_viagem.model.Destino;
-import com.yuriviagens.api_agencia_viagem.service.DestinoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.yuriviagens.viagens.dto.Avaliacao;
+import com.yuriviagens.viagens.model.Destino;
+import com.yuriviagens.viagens.service.DestinoService;
 
 import java.util.List;
 

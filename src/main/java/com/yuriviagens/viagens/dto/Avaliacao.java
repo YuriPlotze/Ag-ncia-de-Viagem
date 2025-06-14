@@ -1,4 +1,4 @@
-package com.yuriviagens.api_agencia_viagem.dto;
+package com.yuriviagens.viagens.dto;
 
 public class Avaliacao {
     private double nota;
