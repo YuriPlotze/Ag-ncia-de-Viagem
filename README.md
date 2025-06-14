@@ -6,9 +6,9 @@
    - Exemplo de Body (JSON):
      ```json
      {
-       "nome": "SP",
+       "nome": "SC",
        "localizacao": "Brasil",
-       "descricao": "Viagemzinha",
+       "descricao": "Viagem para Florianopolis",
        "precoPacote": 4000.0
      }
      ```
@@ -31,7 +31,7 @@
 7. **Adicionar nota**
    - Método:  `PATCH /api/destinos/{id}/avaliar`
    - Exemplo de Body (JSON):
-      ```json
+      ```json  
       {
          "nota": 9
       }
